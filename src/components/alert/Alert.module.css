@@ -1,0 +1,34 @@
+
+.alert {
+    border-radius: 7px;
+    display: flex;
+    border-width: 10px;
+    border-type: solid;
+}
+
+.close {
+    padding: 0 20px;
+    cursor: pointer;
+    flex: 0 0 auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 28px;
+}
+
+.content {
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Segoe UI';
+}
+
+.icon {
+    font-size: 20px;
+    flex: 0 0 auto;
+}
+
+.body {
+    flex: 1;
+}
